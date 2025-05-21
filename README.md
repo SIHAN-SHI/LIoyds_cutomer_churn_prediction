@@ -2,6 +2,18 @@
 
 This project aims to predict customer churn for Lloyds Bank using machine learning. The goal is to help the bank proactively identify high-risk customers and enable early interventions to improve retention.
 
+Key highlights:
+
+Data sourced from customer demographics, transaction history, and support interactions.
+
+Targeted feature construction and interaction terms based on domain-specific patterns.
+
+Comparison of Logistic Regression, Random Forest, and XGBoost.
+
+Final model selection using SMOTE, GridSearchCV, and business-driven metric evaluation.
+
+Post-model analysis includes calibration, SHAP interpretation, and churn risk scoring.
+
 ## Project Overview
 
 - **Problem**: Customer churn causes revenue loss. Predicting which customers are likely to churn allows timely business action.
@@ -9,11 +21,11 @@ This project aims to predict customer churn for Lloyds Bank using machine learni
 - **Outcome**: A tuned model with optimized threshold achieved strong recall and AUC, suitable for early churn detection.
 
 ## Technologies Used
-- Python (Pandas, NumPy, Scikit-learn, XGBoost)
+- Python (Pandas, NumPy,Matplotlib,seaborn,scipy, Scikit-learn,LogisticRegression,Random Forest,XGBoost)
 - SMOTE (Imbalanced-learn)
-- Matplotlib, Seaborn
+- GridSearchCV
 - SHAP for model explainability
-- Jupyter Notebook
+- Colab Notebook
 
 ## Project Workflow
 
