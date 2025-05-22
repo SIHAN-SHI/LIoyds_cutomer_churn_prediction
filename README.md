@@ -65,11 +65,16 @@ Post-model analysis includes calibration, SHAP interpretation, and churn risk sc
 Final model selected: **Random Forest** (better AUC and recall after threshold tuning)
 
 ## Project Structure
+
 Lloyds_customer_churn_prediction/
 ├── data/ # Input datasets (not included in repo)
+
 ├── notebook.ipynb # Main analysis and modeling notebook
+
 ├── outputs/ # Model results and visualizations
+
 ├── requirements.txt # List of required Python packages
+
 └── README.md # Project overview and instructions
 
 ## Key Takeaways
