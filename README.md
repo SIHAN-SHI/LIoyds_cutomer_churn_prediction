@@ -55,13 +55,6 @@ Post-model analysis includes calibration, SHAP interpretation, and churn risk sc
 
 ## Final Model Performance
 
-| Metric      | Tuned XGBoost | Tuned Random Forest |
-|-------------|---------------|---------------------|
-| Recall      | 0.42          | 0.45                |
-| Precision   | 0.52          | 0.48                |
-| F1-score    | 0.47          | 0.46                |
-| AUC         | 0.74          | **0.75**            |
-
 Final model selected: **Random Forest** (better AUC and recall after threshold tuning)
 
 ## Project Structure
