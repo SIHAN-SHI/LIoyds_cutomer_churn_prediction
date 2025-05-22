@@ -67,6 +67,7 @@ Final model selected: **Random Forest** (better AUC and recall after threshold t
 ## Project Structure
 
 Lloyds_customer_churn_prediction/
+
 ├── data/ # Input datasets (not included in repo)
 
 ├── notebook.ipynb # Main analysis and modeling notebook
