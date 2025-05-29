@@ -65,7 +65,7 @@ Lloyds_customer_churn_prediction/
 
 ├── notebook.ipynb # Main analysis and modeling notebook
 
-├── outputs/ # Model results and visualizations
+├── visuals/ # Model results and visualizations
 
 ├── requirements.txt # List of required Python packages
 
